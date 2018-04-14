@@ -1,0 +1,18 @@
+div[suma] {
+    color: aqua;
+}
+div[suma="1500"] {
+    background-color: blue
+}
+div[detaliczny~="tak"] {
+    background-color: red;
+}
+div[detaliczny*="tak"] {
+    background-color: saddlebrown;
+}
+div[suma^="25"] {
+    color: yellow;
+}
+div[suma$="00"] {
+    color: fff;
+}
