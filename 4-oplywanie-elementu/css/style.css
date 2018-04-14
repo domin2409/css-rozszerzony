@@ -1,0 +1,13 @@
+#kotek1 {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+#kotek2 {
+    float: right;
+    height: 200px;
+    width: 200px;
+}
+p*last-child {
+    clear: right;
+}
